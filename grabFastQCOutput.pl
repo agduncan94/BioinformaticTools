@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-# Prints to stdout only one section of the FastQC output text file.  Requires at least the first argument, which is the FastQC output file path.  The optional second argument is an integer from 0-10 which repres
-ents the section to be used.  If it is not given, the user will be prompted for a section
+# Prints to stdout only one section of the FastQC output text file.  Requires at least the first argument, which is the FastQC output file path.  
+# The optional second argument is an integer from 0-10 which represents the section to be used.  If it is not given, the user will be prompted for a section
 
 my $FastQCOutputFile = $ARGV[0];
 chomp($FastQCOutputFile);
