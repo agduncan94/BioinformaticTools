@@ -20,7 +20,7 @@ sub ExpandCIGAR{
 	my $CigarNum;
 	my $PendingString;
 
-	for ($InputString =~ /\d+[a-zA-Z]/g) {
+	for ($Input =~ /\d+[a-zA-Z]/g) {
        		$PendingString = "";
         	$CigarNum = substr($_, 0, -1);
         	$CigarString = substr($_, -1);
